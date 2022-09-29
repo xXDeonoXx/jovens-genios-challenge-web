@@ -26,8 +26,8 @@ const TextInput: React.FC<TextInputProps> = ({
         name={id}
         id={id}
         autoComplete={type}
-        className={`mt-1 focus:ring-secondary focus:border-secondary block w-full shadow-sm sm:text-sm rounded-md font-inter ${
-          error ? 'border-red-500' : 'border-gray'
+        className={`mt-1 focus:ring-primary focus:border-primary block w-full shadow-sm sm:text-sm rounded-sm font-inter ${
+          error ? 'border-red-500' : 'border-gray-300'
         }`}
       />
       <span className='text-red-500 text-sm'>{error}</span>

@@ -65,7 +65,7 @@ const LoginPage = () => {
 
                 <div className='flex w-full justify-center'>
                   <button
-                    className='w-full py-2 rounded-lg bg-primary text-white'
+                    className='w-full py-2 rounded-md bg-primary text-white'
                     type='submit'
                     disabled={isSubmitting}
                   >
