@@ -1,4 +1,4 @@
-# BEES - Frontend Challenge - Brewery Website
+# Jovens Gênios Challenge
 
 ## How to run
 
